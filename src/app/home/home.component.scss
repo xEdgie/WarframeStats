@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap');
+
+$primary: #1C1C1C;
+$secondary: #292929;
+
+mat-card
+{
+    background: $primary;
+    color: white;
+}
+
+#changelogcard
+{
+    background: $secondary;
+    padding: 35px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 25px;
+}
+
+#credit
+{
+    font-size: 15px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+#introcard
+{
+    background: $secondary;
+    padding: 35px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 25px;
+}
+
+#maincard1
+{
+    padding-bottom: 0px;
+}
+
+.card
+{
+    padding: 35px;
+    margin-bottom: 35px;
+}

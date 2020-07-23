@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap');
+
+$primary: #1C1C1C;
+$secondary: #292929;
+
+mat-card
+{
+    background: $primary;
+    color: white;
+
+    div
+    {
+        mat-form-field
+        {
+            margin-left: 20px;
+            margin-bottom: 20px;
+        }
+    }
+}
+
+#statscard
+{
+    background: $secondary;
+    padding: 35px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 25px;
+}
+
+.card
+{
+    padding: 35px;
+}
+
+.gamemodeTitle
+{
+    padding-top: 25px;
+}

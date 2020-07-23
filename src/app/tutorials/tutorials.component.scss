@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap');
+
+$primary: #1C1C1C;
+$secondary: #292929;
+
+body
+{
+    background: $secondary;
+}
+
+mat-card
+{
+    background: $primary;
+    color: white;
+
+    div
+    {
+        mat-form-field
+        {
+            margin-left: 20px;
+            margin-bottom: 20px;
+        }
+    }
+}
+
+h3
+{
+    margin-top: 45px;
+    margin-bottom: 8px;
+}
+
+#card
+{
+    padding: 35px;
+}
+
+#tutorialcard
+{
+    background: $secondary;
+    padding: 35px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 25px;
+}
+
+.card
+{
+    padding: 35px;
+    margin-bottom: 35px;
+}
+
+.gamemodeTitle
+{
+    padding-top: 25px;
+}
