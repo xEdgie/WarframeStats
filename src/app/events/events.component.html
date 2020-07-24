@@ -1,8 +1,8 @@
 <script type="text/javascript" src="events.js"></script>
 
 <body onload="Start()">
-    <mat-card id="card" class="card">
-        <h2 id="header">Events</h2>
+    <mat-card class="card">
+        <h2 id="header">World Events</h2>
         
         <div id="eventtable" class="row">
             <div id="event1card" class="col-md-6">
@@ -30,6 +30,26 @@
                 <mat-card class="eventcard">
                     <h3 id="event4title">Loading...</h3>
                     <p id="event4location"></p>
+                </mat-card>
+            </div>
+        </div>
+    </mat-card>
+
+    <mat-card id="earthcard" class="card">
+        <h2 id="header">World Events</h2>
+        
+        <div id="earthtable" class="row">
+            <div id="earthcyclecard" class="col-md-6">
+                <mat-card class="eventcard">
+                    <h3>Earth State</h3>
+                    <p id="earthcycle">Time of day : Day</p>
+                </mat-card>
+            </div>
+
+            <div id="cetuscyclecard" class="col-md-6">
+                <mat-card class="eventcard">
+                    <h3>Cetus State</h3>
+                    <p id="cetuscycle">Time of day : Day</p>
                 </mat-card>
             </div>
         </div>

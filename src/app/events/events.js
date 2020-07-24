@@ -11,6 +11,8 @@ function Start()
 	console.log("Started getting events");
 
 	getAllEvents();
+	getEarthState();
+	getCetusState();
 }
 
 //Api Queries
@@ -100,6 +102,54 @@ function getAllEvents()
 
     //https://api.warframestat.us/pc/events
 	xhr.open('GET', `https://api.warframestat.us/${platform}/events`, true);
+
+	xhr.send();
+}
+
+function getEarthState()
+{
+	var xhr = new XMLHttpRequest();
+
+	console.log("Getting Earth Status");
+
+	xhr.onreadystatechange = function()
+	{
+		if (this.readyState === 4 && this.status === 200)
+		{
+			//Parse Data
+			var json = JSON.parse(this.responseText);
+
+			//Extract Data
+			document.getElementById("earthcycle").innerHTML = "Time of day : " + json.state;
+		}
+    }
+
+    //https://api.warframestat.us/pc/earthCycle
+	xhr.open('GET', `https://api.warframestat.us/${platform}/earthCycle`, true);
+
+	xhr.send();
+}
+
+function getCetusState()
+{
+	var xhr = new XMLHttpRequest();
+
+	console.log("Getting Cetus Status");
+
+	xhr.onreadystatechange = function()
+	{
+		if (this.readyState === 4 && this.status === 200)
+		{
+			//Parse Data
+			var json = JSON.parse(this.responseText);
+
+			//Extract Data
+			document.getElementById("cetuscycle").innerHTML = "Time of day : " + json.state;
+		}
+    }
+
+    //https://api.warframestat.us/pc/cetusCycle
+	xhr.open('GET', `https://api.warframestat.us/${platform}/cetusCycle`, true);
 
 	xhr.send();
 }
