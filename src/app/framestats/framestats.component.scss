@@ -7,9 +7,18 @@ mat-card
 {
     background: $primary;
     color: white;
+
+    div
+    {
+        mat-form-field
+        {
+            margin-left: 20px;
+            margin-bottom: 20px;
+        }
+    }
 }
 
-#changelogcard
+#statscard
 {
     background: $secondary;
     padding: 35px;
@@ -18,34 +27,19 @@ mat-card
     margin-top: 25px;
 }
 
-#credit
+#Thumbnail
 {
-    font-size: 15px;
-    margin-top: 20px;
-    margin-left: 20px;
-}
-
-#introcard
-{
-    background: $secondary;
-    padding: 35px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    margin-top: 25px;
-}
-
-#maincard1
-{
-    padding-bottom: 0px;
+    margin: 10px;
+    margin-left: 0px;
+    height: 175px;
 }
 
 .card
 {
     padding: 35px;
-    margin-bottom: 35px;
 }
 
-.cardtitle
+.gamemodeTitle
 {
-    padding-bottom: 10px;
+    padding-top: 25px;
 }

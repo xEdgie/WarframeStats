@@ -14,6 +14,7 @@ import { MatInputModule } from '@angular/material/input';
 import { MatProgressBarModule } from '@angular/material/progress-bar';
 import { TutorialsComponent } from './tutorials/tutorials.component';
 import { EventsComponent } from './events/events.component';
+import { FramestatsComponent } from './framestats/framestats.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { EventsComponent } from './events/events.component';
     HomeComponent,
     WeaponstatsComponent,
     TutorialsComponent,
-    EventsComponent
+    EventsComponent,
+    FramestatsComponent
   ],
   imports:
   [

@@ -1,0 +1,38 @@
+<script type="text/javascript" src="framestats.js"></script>
+
+<mat-card class="card">
+    <h2>Warframe Statistics (Beta)</h2>
+
+    <div class="row">
+        <div class="col-md-12">
+            <mat-card id="statscard">
+                <div>
+                    <button mat-flat-button color="primary" onclick="getWarframeStats()">Get Warframe</button>
+                    <mat-form-field color="primary" class="searchBar">
+                        <input matInput placeholder="Warframe" id="searchWarframe"><br>
+                    </mat-form-field>
+                </div>
+
+                <div>
+                    <h2>Warframe Information : </h2>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <p id="warframename">Name : N/A</p>
+                            <p id="health">Health : 0</p>
+                            <p id="shield">Shield : 0</p>
+                            <p id="armor">Armor : 0</p>
+                            <p id="sprint">Sprint Speed : 0</p>
+                        </div>
+                        <div class="col-md-6">
+                            <p id="mastery">Mastery Requirement : 0</p>
+                            <img id="Thumbnail" src=""/>
+                        </div>
+                        <div class="col-md-5">
+                            <p id='description'>Description : N/A</p>
+                        </div>
+                    </div>
+                </div>
+            </mat-card>
+        </div>
+    </div>
+</mat-card>
