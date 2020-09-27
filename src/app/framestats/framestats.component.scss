@@ -13,7 +13,6 @@ mat-card
         mat-form-field
         {
             margin-left: 20px;
-            margin-bottom: 20px;
         }
     }
 }
@@ -27,7 +26,7 @@ mat-card
     margin-top: 25px;
 }
 
-#Thumbnail
+#thumbnail
 {
     margin: 10px;
     margin-left: 0px;
@@ -39,7 +38,18 @@ mat-card
     padding: 35px;
 }
 
+.heading
+{
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+
 .gamemodeTitle
 {
     padding-top: 25px;
+}
+
+.spacer
+{
+    padding-bottom: 15px;
 }

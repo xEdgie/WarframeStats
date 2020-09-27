@@ -1,6 +1,19 @@
 <script type="text/javascript" src="events.js"></script>
 
 <body onload="Start()">
+    <mat-card id="tennoconcard" class="card">
+        <h2 id="header">Tennocon Countdown</h2>
+        
+        <div class="row">
+            <div class="col-md-12">
+                <mat-card class="eventcard">
+                    <h3>Time Left:</h3>
+                    <p id="tennocontime">Time of day : Day</p>
+                </mat-card>
+            </div>
+        </div>
+    </mat-card>
+
     <mat-card class="card">
         <h2 id="header">World Events</h2>
         
@@ -36,7 +49,7 @@
     </mat-card>
 
     <mat-card id="earthcard" class="card">
-        <h2 id="header">World Events</h2>
+        <h2 id="header">World States</h2>
         
         <div id="earthtable" class="row">
             <div id="earthcyclecard" class="col-md-6">
